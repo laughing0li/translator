@@ -13,7 +13,7 @@ const languages = [
     { id: 'ja', name: 'Japanese', icon: '🇯🇵' },
     { id: 'ko', name: 'Korean', icon: '🇰🇷' },
     { id: 'zh', name: 'Chinese', icon: '🇨🇳' },
-    { id: 'it', name: 'Italian', icon: '🇮🇹' },
+    { id: 'italian', name: 'Italian', icon: '🇮🇹' },
     { id: 'ar', name: 'Arabic', icon: '🇸🇦' },
     { id: 'pl', name: 'Polish', icon: '🇵🇱' },
     { id: 'nl', name: 'Dutch', icon: '🇳🇱' },
