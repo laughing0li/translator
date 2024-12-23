@@ -6,18 +6,17 @@ import { Upload } from 'lucide-react'
 import { Textarea } from "@/components/ui/textarea"
 
 const languages = [
+    { id: 'ar', name: 'Arabic', icon: '🇸🇦' },
+    { id: 'zh', name: 'Chinese', icon: '🇨🇳' },
+    { id: 'de', name: 'German', icon: '🇩🇪' },
     { id: 'en', name: 'English', icon: '🇬🇧' },
     { id: 'es', name: 'Spanish', icon: '🇪🇸' },
-    { id: 'de', name: 'German', icon: '🇩🇪' },
     { id: 'fr', name: 'French', icon: '🇫🇷' },
+    { id: 'hi', name: 'Hindi', icon: '🇮🇳' },
+    { id: 'italian', name: 'Italian', icon: '🇮🇹' },
     { id: 'ja', name: 'Japanese', icon: '🇯🇵' },
     { id: 'ko', name: 'Korean', icon: '🇰🇷' },
-    { id: 'zh', name: 'Chinese', icon: '🇨🇳' },
-    { id: 'italian', name: 'Italian', icon: '🇮🇹' },
-    { id: 'ar', name: 'Arabic', icon: '🇸🇦' },
-    { id: 'pl', name: 'Polish', icon: '🇵🇱' },
     { id: 'nl', name: 'Dutch', icon: '🇳🇱' },
-    { id: 'hi', name: 'Hindi', icon: '🇮🇳' },
     { id: 'pt', name: 'Portuguese', icon: '🇵🇹' },
     { id: 'ru', name: 'Russian', icon: '🇷🇺' },
 ]
