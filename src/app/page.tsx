@@ -19,6 +19,8 @@ const languages = [
     { id: 'nl', name: 'Dutch', icon: '🇳🇱' },
     { id: 'pt', name: 'Portuguese', icon: '🇵🇹' },
     { id: 'ru', name: 'Russian', icon: '🇷🇺' },
+    { id: 'tr', name: 'Turkish', icon: '🇹🇷' },
+    { id: 'id', name: 'Indonesian', icon: '🇮🇩' },
 ]
 
 const JsonTranslator = () => {
