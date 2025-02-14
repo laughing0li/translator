@@ -6,7 +6,7 @@ export async function POST(request: NextRequest) {
     try {
         const genAI = new GoogleGenerativeAI(apiKey);
         const { language, originalJson } = await request.json();
-        const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+        const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash-lite-preview-02-05" });
         
         // Update the prompt to be more specific about formatting
         const prompt = `Translate the following JSON to ${language}. Only translate the values, not the keys. Return a valid JSON without any additional formatting or markdown: ${originalJson}`;
